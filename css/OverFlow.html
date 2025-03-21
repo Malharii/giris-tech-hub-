@@ -5,20 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .container {
-        border: 2px solid red;
+      /* .container { */
+      /* border: 2px solid red;
         width: 400px;
-        height: 400px;
-        /* overflow: hidden; */
-        /* overflow: scroll; */
-        /* overflow-y: hidden; */
-        /* overflow-x: auto; */
-        /* overflow: auto; */
+        height: 400px; */
+      /* overflow: hidden; */
+      /* overflow: scroll; */
+      /* overflow-y: hidden; */
+      /* overflow-x: auto; */
+      /* overflow: auto; */
+      /* } */
+      .oone {
+        width: 200px;
+        height: 500px;
+        background-color: aqua;
+        position: relative;
+        left: 200px;
+        z-index: 10;
+      }
+      .two {
+        width: 500px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+        bottom: 400px;
+        z-index: 4;
       }
     </style>
   </head>
   <body>
-    <div class="container">
+    <!-- <div class="container">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam libero consectetur
       voluptas qui ipsum harum odio voluptatibus laborum atque illo dolor, deserunt,
       exercitationem, necessitatibus dignissimos quisquam suscipit aliquam quidem commodi?
@@ -58,6 +74,15 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam libero consectetur
       voluptas qui ipsum harum odio voluptatibus laborum atque illo dolor, deserunt,
       exercitationem, necessitatibus dignissimos quisquam suscipit aliquam quidem commodi?
+    </div> -->
+
+    <div class="oone">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eum ex a
+      ducimus cupiditate, animi alias delectus veniam quis distinctio optio similique modi
+      enim molestiae assumenda, repudiandae commodi officiis soluta.
+    </div>
+    <div class="two">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores
     </div>
   </body>
 </html>
