@@ -47,7 +47,13 @@ body {
   position: relative;
   z-index: 10px;
 }
-
+.intros {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .Thoughtful {
   display: flex;
   flex-direction: column;
@@ -66,10 +72,84 @@ body {
 }
 
 .introcontainer {
-  border: 2px solid black;
-  width: 400px;
-  height: 300px;
   display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 200px;
+  top: 60px;
+
+  justify-content: center;
+  gap: 30px;
+  border: 2px solid black;
+  width: 300px;
+  height: 200px;
+}
+.Turpis {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 250px;
+  /* justify-items: center; */
+  justify-content: center;
+  gap: 30px;
+  border: 2px solid black;
+  width: 300px;
+  height: 200px;
+}
+.Turpis button {
+  width: 150px;
+  padding: 10px;
+  background-color: burlywood;
+}
+
+.sing {
+  border: 2px solid black;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.Working {
+  border: 2px solid black;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Working_on {
+  border: 2px solid black;
+  width: 500px;
+  height: 300px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+}
+.read_more_button_container {
+  display: flex;
+  justify-content: center;
+  /* width: 150px; */
+}
+.read_more_button {
+  padding: 10px 18px;
+  background-color: burlywood;
+}
+
+.boxgroup {
+  width: 100vw;
+  height: 700px;
+  border: 2px solid black;
+}
+
+.box_in {
 }
