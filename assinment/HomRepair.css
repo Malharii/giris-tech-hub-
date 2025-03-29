@@ -117,3 +117,110 @@ body {
   width: 100px;
   padding: 2px;
 }
+.repair_services {
+  width: 100vw;
+  height: 700px;
+  border: 2px solid black;
+
+  padding-left: 60px;
+}
+
+.repair_services_in {
+  border: 2px solid black;
+  width: 400px;
+  height: 500px;
+  background-color: yellow;
+}
+.repair_services_in h2 {
+  font-size: 50px;
+}
+
+.repair_services_in h1 {
+  font-size: 90px;
+  padding: 6px;
+}
+.Popular_Services_out {
+  width: 100vw;
+  height: 800px;
+}
+.Popular_Services_text {
+  width: 800px;
+  height: 300px;
+  padding-top: 70px;
+  padding-left: 100px;
+}
+.Popular_Services_text h1 {
+  font-size: 80px;
+}
+.Popular_Services_text p {
+  width: 500px;
+  font-weight: 100;
+  display: flex;
+}
+.Popular_Services_Img {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Popular_Services_Img_in {
+  border: 2px solid black;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.Popular_Services_Img_in img {
+  width: 300px;
+  height: 200px;
+}
+
+.Freepik_ {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 120px;
+}
+.Home_RepairServices {
+  width: 100vw;
+  height: 1000px;
+  background-color: black;
+  color: white;
+}
+.Home_RepairServices_heding {
+  width: 100vw;
+  height: 300px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Home_RepairServices_6Div {
+  width: 100vw;
+  height: 800px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Home_RepairServices_6Div_in {
+  width: 400px;
+  height: 350px;
+  border: 2px solid white;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Home_RepairServices_6Div_in h1 {
+  color: yellow;
+}
