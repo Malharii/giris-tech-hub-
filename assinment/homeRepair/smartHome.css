@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden auto;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+.Navigation {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.Navigation img {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+}
+.NavItems {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.landing_img {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEdia</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      html {
+        font-size: 10px;
+      }
+
+      .box {
+        width: 70%;
+        height: 50%;
+        border: 2px solid black;
+        font-size: 2rem;
+        padding: 2rem;
+      }
+      @media screen and (max-width: 700px) {
+        .box {
+          background-color: red;
+        }
+
+        html {
+          font-size: 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit quaerat
+      accusantium blanditiis distinctio minima tenetur quam velit, omnis soluta officiis
+      similique rerum vitae magni dolorem debitis est. Earum, error!
+    </div>
+  </body>
+</html>
