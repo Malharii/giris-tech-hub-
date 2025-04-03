@@ -184,3 +184,24 @@ hr {
   margin: 20px 0;
   width: 100%; /* Ensures it spans across */
 }
+.Footer_body_img {
+  width: 25%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer_body {
+  width: 100vw;
+  height: 30rem;
+  font-size: 2rem;
+  display: flex;
+}
+
+.Footer_body_text {
+  width: 30%;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
