@@ -12,9 +12,15 @@ body {
   overflow: hidden auto;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 10px;
+}
 .wrapper {
-  height: 100%;
-  width: 100%;
+  height: 100vw;
+  width: 100vh;
 }
 .Navigation {
   width: 100vw;
@@ -25,19 +31,156 @@ body {
 .Navigation img {
   width: 100px;
   height: 100px;
-  padding: 30px;
+  padding: 2rem;
 }
 .NavItems {
   display: flex;
-  gap: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
+  gap: 2rem;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  font-size: 2rem;
 }
 .landing_img {
   width: 100vw;
-  height: 400px;
+  height: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 3rem;
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/6313535/images/young-woman-using-home-technology5-min.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Ofices {
+  width: 100vw;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+.Ofices_title {
+  font-size: 4rem;
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+
+  justify-content: center;
+}
+.Ofices_i {
+  width: 100vw;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.Ofices_in {
+  width: 25%;
+  height: 20rem;
+  font-size: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex-direction: column;
+  gap: 1rem;
+}
+.Ofices_in button {
+  border-radius: 3rem;
+  width: 50%;
+  height: 3rem;
+  background-color: rgb(102, 205, 193);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.make_smart {
+  margin-top: 5rem;
+  width: 100vw;
+  height: 50rem;
+
+  margin-left: 5rem;
+  font-size: 2rem;
+  border-radius: 3rem;
+  display: flex;
+
+  gap: 2rem;
+}
+.make_smart_from {
+  background-color: rgb(223, 227, 230);
+  width: 90%;
+  border-radius: 3rem;
+  padding: 2rem;
+}
+.make_smart_from input {
+  width: 300px;
+  height: 3rem;
+  border: 1px solid rgb(244, 242, 242);
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 3rem;
+  padding-left: 2rem;
+  font-size: 2rem;
+}
+.Send_button button {
+  border-radius: 3rem;
+  width: 30%;
+
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: rgb(69, 159, 149);
+}
+.make_smart_img {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+
+.Map {
+  width: 100vw;
+  height: 45rem;
+}
+
+.Footer {
+  width: 100vw;
+  height: 70rem;
+  background-color: #293033;
+  color: white;
+  padding: 10rem;
+}
+.Footer_title {
+  display: flex;
+}
+.Ready {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Ready_button button {
+  border-radius: 3rem;
+  width: 400px;
+  height: 5rem;
+  background-color: rgb(102, 205, 193);
+  color: white;
+  border: none;
+  font-size: 4rem;
+  cursor: pointer;
+  margin-left: 14rem;
+}
+hr {
+  border: none;
+  border-top: 2px solid #a09898; /* Change color as needed */
+  margin: 20px 0;
+  width: 100%; /* Ensures it spans across */
 }
